@@ -1,4 +1,4 @@
-@media (max-width: 390px) {
+@media (max-width: 410px) {
     body {
         background-color: rgb(61, 80, 80);
         background-image: url();
@@ -7,7 +7,7 @@
     }
 }
 
-@media (max-width:390px) {
+@media (max-width:410px) {
     #logo {
         color: red;
         font-size: 24px;
