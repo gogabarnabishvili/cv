@@ -1,0 +1,306 @@
+body {
+    background-color: rgb(61, 80, 80);
+    position: relative;
+    background-image: url(../img/me.jpg);
+    max-width: 500px;
+    width: 100%;
+    height: 700px;
+}
+.cover_img {
+    /* background-image: url("../img/me.jpg"); */
+    max-width: 500px;
+    height: 700px;
+    
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+}
+.cover_img img {
+    max-width: 500px;
+    height: 700px;
+    
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+}
+.display_flex {
+    display: flex;
+}
+.header_nav {
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.logo a {
+    font-size: 24px;
+    color: darkred;
+}
+.nav_li {
+    margin-right: 70px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.nav_a {
+    color: aliceblue;
+}
+.efect::after {
+    position: absolute;
+    content: '';
+    top: 24px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    
+    background-color: darkred;
+}
+.efect:hover::after {
+    width: 90%;
+    transition: 1s;
+}
+.dropdown_ul {
+	width: 40px;
+	height: 30px;
+	align-items: center;
+	background-color: darkslategray;
+	margin-top: 5px;
+	padding-top: 6px;
+	opacity: 0;
+	visibility: hidden;
+}
+.len_change:hover .dropdown_ul {
+	opacity: 1;
+	visibility: visible;
+}
+
+.display_none {
+    display: none;
+}
+.down_form {
+    position: relative;
+}
+.form_div {
+    position: absolute;
+    top: 30px;
+    z-index: 100;
+    width: 250px;
+    margin-top: 20px;
+    background-color: black;
+    
+}
+.reg_page {
+    justify-content: space-around;
+}
+.label {
+    color: aliceblue;
+}
+.reg_form {
+    
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-left: 23px;
+    padding: 40px;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+.cansel_butt {
+    margin-left: 227px;
+    margin-bottom: 10px;
+}
+.registracia {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-left: 23px;
+    padding: 40px;
+}
+    
+audio {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 390px;
+    height: 20px;
+    
+}
+
+/* cv form */
+.cv_form {
+    
+    position: absolute;
+    top: 78px;
+    left: 752px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.personal_info {
+    width: 300px;
+}
+table  {
+    width: 100%;
+    
+
+}
+
+ td, tr {
+    text-align: left;
+    padding: 5px;
+    position: relative;
+}
+.tr::after {
+    position: absolute;
+    content: '';
+    top: 25px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    
+    background-color: darkred;
+}
+
+.personal_h2 {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.personal_h2::after {
+    position: absolute;
+    content: '';
+    top: 25px;
+    left: 65px;
+    width: 55%;
+    height: 1px;
+    
+    background-color: darkred; 
+}
+
+.personal_div {
+    width: 300px;
+    height: 200px;
+    
+    position: relative;
+    font-size: 16px;
+}
+.creat_p {
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 117px;
+    height: 60px;
+    text-align: center;
+    white-space: pre-line;
+}
+.party_p {
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 117px;
+    height: 60px;
+    text-align: center;
+    white-space: pre-line;
+}
+.shromis_p {
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 117px;
+    height: 60px;
+    text-align: center;
+    white-space: pre-line;
+}
+.mondomebuli_p {
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 63px;
+    right: 69px;
+    width: 159px;
+    height: 73px;
+    text-align: center;
+    white-space: pre-line;
+}
+.punqtualuri_p {
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 117px;
+    height: 60px;
+    text-align: center;
+    white-space: pre-line;
+}
+.persona_ul{
+    width: 300px;
+    height: 100px;
+    
+    margin-top: 30px;
+}
+.persona_ul li {
+    margin-top: 10px;
+}
+.persona_ul span {
+    margin-right: 20px;
+    color: rgb(228, 217, 217);
+}
+.margin_number
+ {
+    padding-right: 16px;
+ }
+.persona_ul a {
+    color: black;
+}
+/* komentari aqacccccc */
+.vplob_ul {
+    
+    position: absolute;
+    
+    top: 33px;
+    left: 420px;
+}
+.vplob_ul img {
+    width: 20px;
+}
+.vplob_ul li {
+    margin-top: 20px;
+}
+.vplob_h2 {
+    font-size: 18px;
+}
+.out_line {
+    width: 118px;
+    height: 14px;
+    background-color: rgb(140, 50, 50);
+}
+.in_line {
+    width: 95px;
+    height: 14px;
+    background-color: rgb(48, 97, 32);
+}
+
+
+
+
+
+
+
+
+
+
